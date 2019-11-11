@@ -1,0 +1,984 @@
+DEBUG 2019-05-03 21:32:26,451 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-05-03 21:32:26,851 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-05-03 21:32:26,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.Web.Host.Startup.CloudAllianceWebHostModule, CloudAlliance.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceWebCoreModule, CloudAlliance.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceApplicationModule, CloudAlliance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceCoreModule, CloudAlliance.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.EntityFrameworkCore.CloudAllianceEntityFrameworkModule, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,921 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,921 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:26,928 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-05-03 21:32:27,170 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-03 21:32:27,171 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-03 21:32:27,171 [1    ] o.Configuration.LanguageManagementConfig - Converted CloudAlliance (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-03 21:32:27,171 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-03 21:32:28,187 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: CloudAlliance.EntityFrameworkCore.CloudAllianceDbContext, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:32:31,226 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-05-03 21:32:31,776 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-05-03 21:32:31,896 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-05-03 21:32:31,985 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CloudAlliance
+DEBUG 2019-05-03 21:32:32,086 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-05-03 21:32:32,636 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-05-03 21:32:32,755 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-05-03 21:32:32,755 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-05-03 21:32:32,763 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.CreateUserDto
+DEBUG 2019-05-03 21:32:32,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.UserDto
+DEBUG 2019-05-03 21:32:32,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-05-03 21:32:32,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-05-03 21:32:32,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.CreateRoleDto
+DEBUG 2019-05-03 21:32:32,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.PermissionDto
+DEBUG 2019-05-03 21:32:32,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.RoleDto
+DEBUG 2019-05-03 21:32:32,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-05-03 21:32:32,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.TenantDto
+FATAL 2019-05-03 21:32:50,894 [1    ] Abp.AbpBootstrapper                      - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "CloudAllianceDb"。登录失败。
+用户 'DESKTOP-1TTFCRV\二颜' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at CloudAlliance.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at CloudAlliance.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at CloudAlliance.EntityFrameworkCore.CloudAllianceEntityFrameworkModule.PostInitialize() in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.EntityFrameworkCore\EntityFrameworkCore\CloudAllianceEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:09430b45-0f4c-4cc1-b513-41a1851a8c99
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "CloudAllianceDb"。登录失败。
+用户 'DESKTOP-1TTFCRV\二颜' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at CloudAlliance.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at CloudAlliance.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at CloudAlliance.EntityFrameworkCore.CloudAllianceEntityFrameworkModule.PostInitialize() in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.EntityFrameworkCore\EntityFrameworkCore\CloudAllianceEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:09430b45-0f4c-4cc1-b513-41a1851a8c99
+Error Number:4060,State:1,Class:11
+WARN  2019-05-03 21:32:50,895 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "CloudAllianceDb"。登录失败。
+用户 'DESKTOP-1TTFCRV\二颜' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:09430b45-0f4c-4cc1-b513-41a1851a8c99
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "CloudAllianceDb"。登录失败。
+用户 'DESKTOP-1TTFCRV\二颜' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:09430b45-0f4c-4cc1-b513-41a1851a8c99
+Error Number:4060,State:1,Class:11
+FATAL 2019-05-03 21:32:51,113 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "CloudAllianceDb"。登录失败。
+用户 'DESKTOP-1TTFCRV\二颜' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at CloudAlliance.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at CloudAlliance.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at CloudAlliance.EntityFrameworkCore.CloudAllianceEntityFrameworkModule.PostInitialize() in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.EntityFrameworkCore\EntityFrameworkCore\CloudAllianceEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at CloudAlliance.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Web.Host\Startup\Startup.cs:line 93
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+ClientConnectionId:09430b45-0f4c-4cc1-b513-41a1851a8c99
+Error Number:4060,State:1,Class:11
+INFO  2019-05-03 21:32:51,872 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-05-03 21:32:51,872 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+ERROR 2019-05-03 21:32:52,179 [7    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLMFPFBJAL9A", Request id "0HLMFPFBJAL9A:00000001": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: values
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at Microsoft.Extensions.RazorViews.BaseView.EndWriteAttribute()
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-05-03 21:32:52,346 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 447.3713ms 500 
+INFO  2019-05-03 21:32:52,412 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 514.4054ms 500 text/html; charset=utf-8
+INFO  2019-05-03 21:32:52,887 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2019-05-03 21:32:52,912 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.4281ms 500 text/html; charset=utf-8
+DEBUG 2019-05-03 21:34:18,637 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-05-03 21:34:18,813 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-05-03 21:34:18,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.Web.Host.Startup.CloudAllianceWebHostModule, CloudAlliance.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceWebCoreModule, CloudAlliance.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceApplicationModule, CloudAlliance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceCoreModule, CloudAlliance.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.EntityFrameworkCore.CloudAllianceEntityFrameworkModule, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:18,844 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-05-03 21:34:18,968 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-03 21:34:18,968 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-03 21:34:18,968 [1    ] o.Configuration.LanguageManagementConfig - Converted CloudAlliance (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-03 21:34:18,968 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-03 21:34:19,778 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: CloudAlliance.EntityFrameworkCore.CloudAllianceDbContext, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-03 21:34:21,932 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-05-03 21:34:22,378 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-05-03 21:34:22,463 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-05-03 21:34:22,504 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CloudAlliance
+DEBUG 2019-05-03 21:34:22,562 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-05-03 21:34:22,965 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-05-03 21:34:23,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-05-03 21:34:23,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-05-03 21:34:23,082 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.CreateUserDto
+DEBUG 2019-05-03 21:34:23,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.UserDto
+DEBUG 2019-05-03 21:34:23,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-05-03 21:34:23,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-05-03 21:34:23,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.CreateRoleDto
+DEBUG 2019-05-03 21:34:23,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.PermissionDto
+DEBUG 2019-05-03 21:34:23,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.RoleDto
+DEBUG 2019-05-03 21:34:23,084 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-05-03 21:34:23,084 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.TenantDto
+INFO  2019-05-03 21:34:37,511 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-05-03 21:34:37,511 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-05-03 21:34:37,676 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 173.3966ms 200 
+INFO  2019-05-03 21:34:43,541 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host)
+INFO  2019-05-03 21:34:45,695 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) - Validation state: Valid
+INFO  2019-05-03 21:34:45,708 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 4.2866ms.
+INFO  2019-05-03 21:34:45,917 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-05-03 21:34:45,939 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) in 2388.0954ms
+INFO  2019-05-03 21:34:45,981 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8478.9101ms 302 
+INFO  2019-05-03 21:34:45,987 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-05-03 21:34:46,005 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.3977ms 301 
+INFO  2019-05-03 21:34:46,014 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-05-03 21:34:46,054 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.7251ms 200 text/html
+INFO  2019-05-03 21:34:46,130 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-05-03 21:34:46,138 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-05-03 21:34:46,157 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-05-03 21:34:46,173 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-05-03 21:34:46,176 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-05-03 21:34:46,234 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-05-03 21:34:46,238 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-05-03 21:34:46,241 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 102.7903ms 200 application/javascript
+INFO  2019-05-03 21:34:46,284 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.7723ms 200 application/javascript
+INFO  2019-05-03 21:34:46,361 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-05-03 21:34:46,448 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 282.3775ms 200 text/css
+INFO  2019-05-03 21:34:46,471 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-05-03 21:34:46,483 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 299.7413ms 200 application/javascript
+INFO  2019-05-03 21:34:46,720 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-05-03 21:34:46,726 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 607.2266ms 200 application/javascript
+INFO  2019-05-03 21:34:47,355 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-05-03 21:34:47,367 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-05-03 21:34:47,475 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2019-05-03 21:34:47,491 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-05-03 21:34:47,500 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.0555ms 200 image/png
+INFO  2019-05-03 21:34:47,509 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2019-05-03 21:34:47,515 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2019-05-03 21:34:47,535 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.4777ms 200 image/png
+INFO  2019-05-03 21:34:47,926 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 562.8125ms 200 application/json;charset=utf-8
+INFO  2019-05-03 21:36:19,052 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 153
+INFO  2019-05-03 21:36:19,064 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:36:19,071 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:36:19,152 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-05-03 21:36:19,237 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application)
+INFO  2019-05-03 21:36:19,242 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:36:19,249 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:36:19,967 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) with arguments (CloudAlliance.Authorization.Accounts.Dto.RegisterInput) - Validation state: Valid
+ERROR 2019-05-03 21:36:21,040 [19   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not register host users!
+System.InvalidOperationException: Can not register host users!
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.CheckForTenant() in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at CloudAlliance.Authorization.Accounts.AccountAppService.Register(RegisterInput input) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Application\Authorization\Accounts\AccountAppService.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-05-03 21:36:21,639 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-03 21:36:21,672 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) in 2431.0327ms
+INFO  2019-05-03 21:36:21,684 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2623.7227ms 500 application/json; charset=utf-8
+INFO  2019-05-03 21:36:56,016 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json-patch+json 89
+INFO  2019-05-03 21:36:56,025 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:36:56,030 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:36:56,036 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-05-03 21:36:56,053 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action CloudAlliance.Controllers.TokenAuthController.Authenticate (CloudAlliance.Web.Core)
+INFO  2019-05-03 21:36:56,056 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:36:56,060 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:36:56,582 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Controllers.TokenAuthController.Authenticate (CloudAlliance.Web.Core) with arguments (CloudAlliance.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+WARN  2019-05-03 21:36:58,228 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at CloudAlliance.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at CloudAlliance.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-05-03 21:36:58,232 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-03 21:36:58,242 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Controllers.TokenAuthController.Authenticate (CloudAlliance.Web.Core) in 2182.0275ms
+INFO  2019-05-03 21:36:58,249 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2232.2276ms 500 application/json; charset=utf-8
+INFO  2019-05-03 21:37:42,140 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 122
+INFO  2019-05-03 21:37:42,143 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:37:42,147 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:37:42,152 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-05-03 21:37:42,171 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application)
+INFO  2019-05-03 21:37:42,177 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:37:42,184 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:37:42,244 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) with arguments (CloudAlliance.Authorization.Accounts.Dto.RegisterInput) - Validation state: Valid
+ERROR 2019-05-03 21:37:43,114 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not register host users!
+System.InvalidOperationException: Can not register host users!
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.CheckForTenant() in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at CloudAlliance.Authorization.Accounts.AccountAppService.Register(RegisterInput input) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Application\Authorization\Accounts\AccountAppService.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-05-03 21:37:43,120 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-03 21:37:43,124 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) in 948.8323ms
+INFO  2019-05-03 21:37:43,129 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 988.7257ms 500 application/json; charset=utf-8
+INFO  2019-05-03 21:38:15,427 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json 122
+INFO  2019-05-03 21:38:15,437 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:38:15,445 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:38:15,467 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-05-03 21:38:15,487 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application)
+INFO  2019-05-03 21:38:15,495 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:38:15,501 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:38:15,566 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) with arguments (CloudAlliance.Authorization.Accounts.Dto.RegisterInput) - Validation state: Valid
+ERROR 2019-05-03 21:38:16,519 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not register host users!
+System.InvalidOperationException: Can not register host users!
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.CheckForTenant() in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at CloudAlliance.Authorization.Accounts.AccountAppService.Register(RegisterInput input) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Application\Authorization\Accounts\AccountAppService.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-05-03 21:38:16,526 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-03 21:38:16,554 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) in 1038.7564ms
+INFO  2019-05-03 21:38:16,576 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1144.1699ms 500 application/json; charset=utf-8
+INFO  2019-05-03 21:39:58,219 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 122
+INFO  2019-05-03 21:39:58,226 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:39:58,231 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:39:58,237 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-05-03 21:39:58,248 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application)
+INFO  2019-05-03 21:39:58,252 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:39:58,259 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:39:58,311 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) with arguments (CloudAlliance.Authorization.Accounts.Dto.RegisterInput) - Validation state: Valid
+ERROR 2019-05-03 21:40:31,430 [30   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not register host users!
+System.InvalidOperationException: Can not register host users!
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.CheckForTenant() in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at CloudAlliance.Authorization.Accounts.AccountAppService.Register(RegisterInput input) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Application\Authorization\Accounts\AccountAppService.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-05-03 21:40:31,436 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-03 21:40:31,442 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) in 33188.2217ms
+INFO  2019-05-03 21:40:31,454 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33228.3479ms 500 application/json; charset=utf-8
+INFO  2019-05-03 21:40:34,020 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 122
+INFO  2019-05-03 21:40:34,024 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:40:34,027 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:40:34,030 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-05-03 21:40:34,046 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application)
+INFO  2019-05-03 21:40:34,053 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:40:34,057 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:40:34,126 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) with arguments (CloudAlliance.Authorization.Accounts.Dto.RegisterInput) - Validation state: Valid
+ERROR 2019-05-03 21:40:48,729 [30   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not register host users!
+System.InvalidOperationException: Can not register host users!
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.CheckForTenant() in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at CloudAlliance.Authorization.Accounts.AccountAppService.Register(RegisterInput input) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Application\Authorization\Accounts\AccountAppService.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-05-03 21:40:48,734 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-03 21:40:48,738 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) in 14688.5398ms
+INFO  2019-05-03 21:40:48,751 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14724.5208ms 500 application/json; charset=utf-8
+INFO  2019-05-03 21:40:53,522 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-05-03 21:40:53,808 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-05-03 21:40:53,815 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2019-05-03 21:40:53,823 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2019-05-03 21:40:53,835 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.5623ms 404 
+INFO  2019-05-03 21:40:53,858 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.8437ms 404 
+INFO  2019-05-03 21:40:53,914 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 360.824ms 304 text/css
+INFO  2019-05-03 21:40:54,073 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css.map  
+INFO  2019-05-03 21:40:54,419 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 87.7201ms 404 
+INFO  2019-05-03 21:40:57,387 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Account/Register  
+INFO  2019-05-03 21:40:57,479 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 157.6387ms 404 
+INFO  2019-05-03 21:41:03,400 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 122
+INFO  2019-05-03 21:41:03,403 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:41:03,408 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:41:03,412 [6    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-05-03 21:41:03,420 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application)
+INFO  2019-05-03 21:41:03,426 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2019-05-03 21:41:03,432 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-05-03 21:41:03,481 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) with arguments (CloudAlliance.Authorization.Accounts.Dto.RegisterInput) - Validation state: Valid
+ERROR 2019-05-03 21:41:49,833 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not register host users!
+System.InvalidOperationException: Can not register host users!
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.CheckForTenant() in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at CloudAlliance.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at CloudAlliance.Authorization.Accounts.AccountAppService.Register(RegisterInput input) in D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Application\Authorization\Accounts\AccountAppService.cs:line 37
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-05-03 21:41:49,837 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-05-03 21:41:49,844 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Authorization.Accounts.AccountAppService.Register (CloudAlliance.Application) in 46417.268ms
+INFO  2019-05-03 21:41:49,855 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46449.0724ms 500 application/json; charset=utf-8
+DEBUG 2019-05-27 23:29:40,219 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-05-27 23:29:40,714 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-05-27 23:29:40,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.Web.Host.Startup.CloudAllianceWebHostModule, CloudAlliance.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceWebCoreModule, CloudAlliance.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceApplicationModule, CloudAlliance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceCoreModule, CloudAlliance.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,767 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,769 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.EntityFrameworkCore.CloudAllianceEntityFrameworkModule, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:40,781 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-05-27 23:29:40,956 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-27 23:29:40,956 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-27 23:29:40,956 [1    ] o.Configuration.LanguageManagementConfig - Converted CloudAlliance (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-27 23:29:40,956 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-27 23:29:42,089 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: CloudAlliance.EntityFrameworkCore.CloudAllianceDbContext, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-27 23:29:44,620 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-05-27 23:29:44,929 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-05-27 23:29:45,032 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-05-27 23:29:45,114 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CloudAlliance
+DEBUG 2019-05-27 23:29:45,227 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-05-27 23:29:45,644 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-05-27 23:29:45,745 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-05-27 23:29:45,745 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-05-27 23:29:45,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.CreateUserDto
+DEBUG 2019-05-27 23:29:45,753 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.UserDto
+DEBUG 2019-05-27 23:29:45,753 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-05-27 23:29:45,753 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-05-27 23:29:45,753 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.CreateRoleDto
+DEBUG 2019-05-27 23:29:45,753 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.PermissionDto
+DEBUG 2019-05-27 23:29:45,753 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.RoleDto
+DEBUG 2019-05-27 23:29:45,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-05-27 23:29:45,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.TenantDto
+INFO  2019-05-27 23:29:56,477 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-05-27 23:29:56,477 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-05-27 23:29:56,677 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 208.2646ms 200 
+INFO  2019-05-27 23:30:04,668 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host)
+INFO  2019-05-27 23:30:06,371 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) - Validation state: Valid
+INFO  2019-05-27 23:30:06,379 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.2888ms.
+INFO  2019-05-27 23:30:06,750 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-05-27 23:30:06,776 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) in 2099.9919ms
+INFO  2019-05-27 23:30:06,809 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-05-27 23:30:06,816 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10351.2881ms 302 
+INFO  2019-05-27 23:30:06,830 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.9152ms 301 
+INFO  2019-05-27 23:30:06,837 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-05-27 23:30:06,874 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.8722ms 200 text/html
+INFO  2019-05-27 23:30:07,079 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-05-27 23:30:07,116 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-05-27 23:30:07,120 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-05-27 23:30:07,126 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-05-27 23:30:07,131 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-05-27 23:30:07,252 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-05-27 23:30:07,262 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-05-27 23:30:07,267 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.6922ms 200 application/javascript
+INFO  2019-05-27 23:30:07,283 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 162.4448ms 200 application/javascript
+INFO  2019-05-27 23:30:07,309 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-05-27 23:30:07,343 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 235.7345ms 200 text/css
+INFO  2019-05-27 23:30:07,358 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-05-27 23:30:07,373 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 303.9422ms 200 application/javascript
+INFO  2019-05-27 23:30:07,557 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-05-27 23:30:07,563 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 475.314ms 200 application/javascript
+INFO  2019-05-27 23:30:08,229 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-05-27 23:30:08,241 [12   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-05-27 23:30:08,467 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2019-05-27 23:30:08,511 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-05-27 23:30:08,620 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.1795ms 200 image/png
+INFO  2019-05-27 23:30:08,706 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2019-05-27 23:30:08,783 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2019-05-27 23:30:08,806 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 248.863ms 200 image/png
+INFO  2019-05-27 23:30:09,019 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 794.6344ms 200 application/json;charset=utf-8
+INFO  2019-05-27 23:31:06,374 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-05-27 23:31:06,399 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host)
+INFO  2019-05-27 23:31:06,452 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) - Validation state: Valid
+INFO  2019-05-27 23:31:06,456 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.013ms.
+INFO  2019-05-27 23:31:06,502 [18   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-05-27 23:31:06,505 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) in 103.5131ms
+INFO  2019-05-27 23:31:06,513 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 135.5764ms 302 
+INFO  2019-05-27 23:31:06,517 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-05-27 23:31:06,530 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.371ms 301 
+INFO  2019-05-27 23:31:06,533 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-05-27 23:31:06,553 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.4634ms 200 text/html
+DEBUG 2019-05-29 15:02:20,972 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-05-29 15:02:21,385 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-05-29 15:02:21,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.Web.Host.Startup.CloudAllianceWebHostModule, CloudAlliance.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,409 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceWebCoreModule, CloudAlliance.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,410 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceApplicationModule, CloudAlliance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,410 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceCoreModule, CloudAlliance.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,411 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,412 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,412 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,413 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,413 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.EntityFrameworkCore.CloudAllianceEntityFrameworkModule, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,413 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,414 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,414 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,414 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,414 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,415 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:21,418 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-05-29 15:02:21,515 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-29 15:02:21,515 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-29 15:02:21,515 [1    ] o.Configuration.LanguageManagementConfig - Converted CloudAlliance (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-29 15:02:21,515 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-05-29 15:02:21,988 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: CloudAlliance.EntityFrameworkCore.CloudAllianceDbContext, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-05-29 15:02:24,330 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-05-29 15:02:24,546 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-05-29 15:02:24,610 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-05-29 15:02:24,648 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CloudAlliance
+DEBUG 2019-05-29 15:02:24,692 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-05-29 15:02:25,038 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-05-29 15:02:25,111 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-05-29 15:02:25,111 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-05-29 15:02:25,116 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.CreateUserDto
+DEBUG 2019-05-29 15:02:25,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.UserDto
+DEBUG 2019-05-29 15:02:25,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-05-29 15:02:25,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-05-29 15:02:25,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.CreateRoleDto
+DEBUG 2019-05-29 15:02:25,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.PermissionDto
+DEBUG 2019-05-29 15:02:25,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.RoleDto
+DEBUG 2019-05-29 15:02:25,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-05-29 15:02:25,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.TenantDto
+INFO  2019-05-29 15:02:34,736 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-05-29 15:02:34,736 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-05-29 15:02:34,950 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 221.0164ms 200 
+INFO  2019-05-29 15:02:41,665 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host)
+INFO  2019-05-29 15:02:43,804 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) - Validation state: Valid
+INFO  2019-05-29 15:02:43,821 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 6.3176ms.
+INFO  2019-05-29 15:02:44,462 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-05-29 15:02:44,480 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) in 2805.6844ms
+INFO  2019-05-29 15:02:44,529 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-05-29 15:02:44,533 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9816.1905ms 302 
+INFO  2019-05-29 15:02:44,556 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.9081ms 301 
+INFO  2019-05-29 15:02:44,566 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-05-29 15:02:44,644 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.0633ms 200 text/html
+INFO  2019-05-29 15:02:45,447 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-05-29 15:02:45,449 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-05-29 15:02:45,463 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-05-29 15:02:45,465 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-05-29 15:02:45,469 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-05-29 15:02:45,552 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-05-29 15:02:45,557 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-05-29 15:02:45,563 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.9401ms 200 application/javascript
+INFO  2019-05-29 15:02:45,572 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.0608ms 200 application/javascript
+INFO  2019-05-29 15:02:45,642 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-05-29 15:02:45,691 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-05-29 15:02:45,695 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 263.8392ms 200 text/css
+INFO  2019-05-29 15:02:45,704 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 238.5665ms 200 application/javascript
+INFO  2019-05-29 15:02:45,877 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-05-29 15:02:45,884 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 439.0915ms 200 application/javascript
+INFO  2019-05-29 15:02:48,295 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-05-29 15:02:48,305 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-05-29 15:02:48,725 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 428.1516ms 200 application/json;charset=utf-8
+DEBUG 2019-09-09 22:58:19,527 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-09-09 22:58:20,799 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-09-09 22:58:20,897 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.Web.Host.Startup.CloudAllianceWebHostModule, CloudAlliance.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceWebCoreModule, CloudAlliance.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceApplicationModule, CloudAlliance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceCoreModule, CloudAlliance.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.EntityFrameworkCore.CloudAllianceEntityFrameworkModule, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:20,919 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-09-09 22:58:21,703 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 22:58:21,704 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 22:58:21,704 [1    ] o.Configuration.LanguageManagementConfig - Converted CloudAlliance (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 22:58:21,704 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 22:58:25,180 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: CloudAlliance.EntityFrameworkCore.CloudAllianceDbContext, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 22:58:28,607 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-09-09 22:58:28,853 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-09-09 22:58:28,934 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-09-09 22:58:28,989 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CloudAlliance
+DEBUG 2019-09-09 22:58:29,042 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-09-09 22:58:29,444 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-09-09 22:58:29,552 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-09-09 22:58:29,552 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-09-09 22:58:29,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.CreateUserDto
+DEBUG 2019-09-09 22:58:29,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.UserDto
+DEBUG 2019-09-09 22:58:29,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-09-09 22:58:29,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-09-09 22:58:29,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.CreateRoleDto
+DEBUG 2019-09-09 22:58:29,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.PermissionDto
+DEBUG 2019-09-09 22:58:29,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.RoleDto
+DEBUG 2019-09-09 22:58:29,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-09-09 22:58:29,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.TenantDto
+INFO  2019-09-09 22:58:41,178 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-09-09 22:58:41,178 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/mtChatHub/negotiate text/plain;charset=UTF-8 0
+INFO  2019-09-09 22:58:41,178 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-09-09 22:58:41,309 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 22:58:41,445 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 273.8611ms 200 
+INFO  2019-09-09 22:58:41,955 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 791.3284ms 200 application/json
+INFO  2019-09-09 22:58:41,970 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub?id=a5vZ-BEpBgqy6KCNKy4xAw  
+INFO  2019-09-09 22:58:41,976 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 22:58:42,561 [9    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+INFO  2019-09-09 22:58:50,380 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host)
+INFO  2019-09-09 22:58:52,531 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) - Validation state: Valid
+INFO  2019-09-09 22:58:52,540 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.094ms.
+INFO  2019-09-09 22:58:53,327 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-09-09 22:58:53,366 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) in 2963.5273ms
+INFO  2019-09-09 22:58:53,400 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12236.5768ms 302 
+INFO  2019-09-09 22:58:53,407 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-09-09 22:58:53,434 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.905ms 301 
+INFO  2019-09-09 22:58:53,441 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-09-09 22:58:53,491 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.8768ms 200 text/html
+INFO  2019-09-09 22:58:53,641 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-09-09 22:58:53,656 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-09-09 22:58:53,662 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-09-09 22:58:53,666 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-09-09 22:58:53,776 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-09-09 22:58:53,808 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-09-09 22:58:53,899 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 151.1397ms 200 application/javascript
+INFO  2019-09-09 22:58:53,938 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-09-09 22:58:54,036 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-09-09 22:58:54,052 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 367.7293ms 200 text/css
+INFO  2019-09-09 22:58:54,071 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 428.8604ms 200 application/javascript
+INFO  2019-09-09 22:58:54,085 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\CloudAllianceWorkSpace\TFSWorkSpace\ABP框架\ABPTemplates\src\CloudAlliance.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-09-09 22:58:54,100 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 328.1913ms 200 application/javascript
+INFO  2019-09-09 22:58:54,170 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-09-09 22:58:54,186 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 528.2714ms 200 application/javascript
+INFO  2019-09-09 22:58:54,968 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-09-09 22:58:54,982 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-09-09 22:58:55,090 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2019-09-09 22:58:55,108 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-09-09 22:58:55,122 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.0073ms 200 image/png
+INFO  2019-09-09 22:58:55,579 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 607.206ms 200 application/json;charset=utf-8
+INFO  2019-09-09 22:59:23,606 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41633.096ms 101 
+INFO  2019-09-09 22:59:24,480 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/mtChatHub/negotiate text/plain;charset=UTF-8 0
+INFO  2019-09-09 22:59:24,485 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 22:59:24,515 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.9756ms 200 application/json
+INFO  2019-09-09 22:59:24,529 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub?id=7V1x7ilxjpfn4EaO7sbMwg  
+INFO  2019-09-09 22:59:24,535 [9    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 22:59:24,553 [9    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+INFO  2019-09-09 23:00:24,872 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/mtChatHub/negotiate text/plain;charset=UTF-8 0
+INFO  2019-09-09 23:00:24,886 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:00:24,924 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.4805ms 200 application/json
+INFO  2019-09-09 23:00:24,954 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub?id=fj2BEH0JDNfPmcIUMx9IyA  
+INFO  2019-09-09 23:00:24,957 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:00:24,989 [9    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-09-09 23:04:28,680 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-09-09 23:04:28,982 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-09-09 23:04:29,016 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.Web.Host.Startup.CloudAllianceWebHostModule, CloudAlliance.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceWebCoreModule, CloudAlliance.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceApplicationModule, CloudAlliance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceCoreModule, CloudAlliance.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,024 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,026 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,027 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.EntityFrameworkCore.CloudAllianceEntityFrameworkModule, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,027 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,028 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,028 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,028 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:29,032 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-09-09 23:04:29,148 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:04:29,148 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:04:29,148 [1    ] o.Configuration.LanguageManagementConfig - Converted CloudAlliance (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:04:29,148 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:04:30,169 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: CloudAlliance.EntityFrameworkCore.CloudAllianceDbContext, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:04:32,075 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-09-09 23:04:32,357 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-09-09 23:04:32,504 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-09-09 23:04:32,561 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CloudAlliance
+DEBUG 2019-09-09 23:04:32,625 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-09-09 23:04:32,931 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-09-09 23:04:32,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-09-09 23:04:32,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-09-09 23:04:32,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.CreateUserDto
+DEBUG 2019-09-09 23:04:32,992 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.UserDto
+DEBUG 2019-09-09 23:04:32,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-09-09 23:04:32,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-09-09 23:04:32,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.CreateRoleDto
+DEBUG 2019-09-09 23:04:32,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.PermissionDto
+DEBUG 2019-09-09 23:04:32,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.RoleDto
+DEBUG 2019-09-09 23:04:32,994 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-09-09 23:04:32,994 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.TenantDto
+INFO  2019-09-09 23:04:41,884 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-09-09 23:04:41,889 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-09-09 23:04:41,905 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/mtChatHub/negotiate text/plain;charset=UTF-8 0
+INFO  2019-09-09 23:04:41,907 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/mtChatHub/negotiate text/plain;charset=UTF-8 0
+INFO  2019-09-09 23:04:42,123 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:04:42,152 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:04:42,289 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 429.2879ms 200 
+INFO  2019-09-09 23:04:42,878 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1042.5546ms 200 application/json
+INFO  2019-09-09 23:04:42,892 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1042.5148ms 200 application/json
+INFO  2019-09-09 23:04:42,899 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub?id=oS2vpTwieih92VD28jdfHw  
+INFO  2019-09-09 23:04:42,904 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:04:43,169 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub?id=zp3Zwx_q_1NM8omoEusS5w  
+INFO  2019-09-09 23:04:43,182 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:04:43,543 [12   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+INFO  2019-09-09 23:04:43,547 [6    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+INFO  2019-09-09 23:04:50,129 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host)
+INFO  2019-09-09 23:04:52,348 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) - Validation state: Valid
+INFO  2019-09-09 23:04:52,362 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.6246ms.
+INFO  2019-09-09 23:04:53,365 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-09-09 23:04:53,404 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) in 3259.1596ms
+INFO  2019-09-09 23:04:53,453 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11624.5263ms 302 
+INFO  2019-09-09 23:04:53,463 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-09-09 23:04:53,562 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 97.2165ms 200 text/html
+INFO  2019-09-09 23:04:53,850 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-09-09 23:04:53,867 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-09-09 23:04:54,047 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-09-09 23:04:54,132 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-09-09 23:04:54,140 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-09-09 23:04:54,147 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-09-09 23:04:54,223 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 300.4487ms 304 application/javascript
+INFO  2019-09-09 23:04:54,353 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 495.0921ms 304 application/javascript
+INFO  2019-09-09 23:04:54,658 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 463.7635ms 304 text/css
+INFO  2019-09-09 23:04:55,691 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-09-09 23:04:55,724 [12   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-09-09 23:04:56,479 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 962.9813ms 200 application/json;charset=utf-8
+INFO  2019-09-09 23:06:19,474 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 96323.2324ms 101 
+INFO  2019-09-09 23:06:19,477 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 96583.5747ms 101 
+INFO  2019-09-09 23:06:20,140 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/mtChatHub/negotiate text/plain;charset=UTF-8 0
+INFO  2019-09-09 23:06:20,151 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:06:20,173 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.0015ms 200 application/json
+INFO  2019-09-09 23:06:20,202 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub?id=bzQimtOq_5syRlg1C0vMHQ  
+INFO  2019-09-09 23:06:20,209 [19   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:06:20,230 [25   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+INFO  2019-09-09 23:17:41,384 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 681070.5105ms 101 
+INFO  2019-09-09 23:22:44,667 [65   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/mtChatHub/negotiate text/plain;charset=UTF-8 0
+INFO  2019-09-09 23:22:44,671 [65   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:22:44,701 [65   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.796ms 200 application/json
+INFO  2019-09-09 23:22:44,760 [53   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub?id=rT3akAyE1d4j6EEFhuFklw  
+INFO  2019-09-09 23:22:44,807 [53   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:22:44,934 [69   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+INFO  2019-09-09 23:25:09,154 [68   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 143629.6917ms 101 
+DEBUG 2019-09-09 23:35:33,011 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-09-09 23:35:33,066 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-09-09 23:35:33,103 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.Web.Host.Startup.CloudAllianceWebHostModule, CloudAlliance.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceWebCoreModule, CloudAlliance.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceApplicationModule, CloudAlliance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceCoreModule, CloudAlliance.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.EntityFrameworkCore.CloudAllianceEntityFrameworkModule, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:33,124 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-09-09 23:35:33,260 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:35:33,260 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:35:33,260 [1    ] o.Configuration.LanguageManagementConfig - Converted CloudAlliance (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:35:33,260 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:35:33,857 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: CloudAlliance.EntityFrameworkCore.CloudAllianceDbContext, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:35:34,630 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-09-09 23:35:34,852 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-09-09 23:35:34,926 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-09-09 23:35:34,994 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CloudAlliance
+DEBUG 2019-09-09 23:35:35,046 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-09-09 23:35:35,100 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-09-09 23:35:35,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-09-09 23:35:35,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-09-09 23:35:35,188 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.CreateUserDto
+DEBUG 2019-09-09 23:35:35,189 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.UserDto
+DEBUG 2019-09-09 23:35:35,189 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-09-09 23:35:35,189 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-09-09 23:35:35,190 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.CreateRoleDto
+DEBUG 2019-09-09 23:35:35,190 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.PermissionDto
+DEBUG 2019-09-09 23:35:35,190 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.RoleDto
+DEBUG 2019-09-09 23:35:35,190 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-09-09 23:35:35,190 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.TenantDto
+INFO  2019-09-09 23:35:42,531 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/mtChatHub/negotiate text/plain;charset=UTF-8 0
+INFO  2019-09-09 23:35:42,661 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:35:42,945 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 425.5117ms 200 application/json
+INFO  2019-09-09 23:35:42,978 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub?id=_RnaNVEBWyDzbdCjeDuAUA  
+INFO  2019-09-09 23:35:42,979 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:35:43,367 [7    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+INFO  2019-09-09 23:38:47,414 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 184439.2997ms 101 
+INFO  2019-09-09 23:38:48,535 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:38:48,535 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:39:03,573 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15037.6158ms 101 
+INFO  2019-09-09 23:41:19,787 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:41:19,787 [30   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:41:34,824 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15037.6052ms 101 
+INFO  2019-09-09 23:42:54,640 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:42:54,640 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:43:02,278 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:43:02,278 [47   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:43:09,677 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15035.3811ms 101 
+INFO  2019-09-09 23:43:17,305 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15027.4975ms 101 
+DEBUG 2019-09-09 23:45:01,501 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-09-09 23:45:01,792 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-09-09 23:45:01,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.Web.Host.Startup.CloudAllianceWebHostModule, CloudAlliance.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceWebCoreModule, CloudAlliance.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,850 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceApplicationModule, CloudAlliance.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.CloudAllianceCoreModule, CloudAlliance.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,853 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CloudAlliance.EntityFrameworkCore.CloudAllianceEntityFrameworkModule, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:01,867 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-09-09 23:45:02,016 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:45:02,016 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:45:02,016 [1    ] o.Configuration.LanguageManagementConfig - Converted CloudAlliance (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:45:02,016 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-09 23:45:02,666 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: CloudAlliance.EntityFrameworkCore.CloudAllianceDbContext, CloudAlliance.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-09 23:45:05,311 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-09-09 23:45:05,668 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-09-09 23:45:05,847 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-09-09 23:45:05,943 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CloudAlliance
+DEBUG 2019-09-09 23:45:06,079 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-09-09 23:45:06,551 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-09-09 23:45:06,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-09-09 23:45:06,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-09-09 23:45:06,649 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.CreateUserDto
+DEBUG 2019-09-09 23:45:06,650 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Users.Dto.UserDto
+DEBUG 2019-09-09 23:45:06,650 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-09-09 23:45:06,650 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-09-09 23:45:06,650 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.CreateRoleDto
+DEBUG 2019-09-09 23:45:06,650 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.PermissionDto
+DEBUG 2019-09-09 23:45:06,650 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.Roles.Dto.RoleDto
+DEBUG 2019-09-09 23:45:06,651 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-09-09 23:45:06,651 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CloudAlliance.MultiTenancy.Dto.TenantDto
+INFO  2019-09-09 23:45:15,881 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-09-09 23:45:15,881 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2019-09-09 23:45:16,104 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 220.1956ms 200 
+INFO  2019-09-09 23:45:23,375 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host)
+INFO  2019-09-09 23:45:25,086 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) - Validation state: Valid
+INFO  2019-09-09 23:45:25,094 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.451ms.
+INFO  2019-09-09 23:45:25,585 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-09-09 23:45:25,632 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action CloudAlliance.Web.Host.Controllers.HomeController.Index (CloudAlliance.Web.Host) in 2231.7544ms
+INFO  2019-09-09 23:45:25,676 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9817.4755ms 302 
+INFO  2019-09-09 23:45:25,681 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-09-09 23:45:25,762 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.7823ms 200 text/html
+INFO  2019-09-09 23:45:25,862 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-09-09 23:45:25,868 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-09-09 23:45:25,870 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-09-09 23:45:25,903 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-09-09 23:45:25,906 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-09-09 23:45:25,910 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-09-09 23:45:25,920 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.024ms 304 text/css
+INFO  2019-09-09 23:45:25,930 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.4581ms 304 application/javascript
+INFO  2019-09-09 23:45:25,941 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.5801ms 304 application/javascript
+INFO  2019-09-09 23:45:26,670 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-09-09 23:45:26,696 [12   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2019-09-09 23:45:27,309 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 636.2016ms 200 application/json;charset=utf-8
+INFO  2019-09-09 23:45:52,115 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:45:52,148 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:47:47,368 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:47:47,412 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:47:54,318 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:47:54,325 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:48:12,356 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:48:12,359 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:48:24,640 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:48:24,646 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:48:27,922 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:48:27,929 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2019-09-09 23:48:31,032 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:48:31,036 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+ERROR 2019-09-09 23:48:45,698 [7    ] .AspNetCore.SignalR.HubConnectionContext - Failed connection handshake.
+ERROR 2019-09-09 23:48:45,698 [4    ] .AspNetCore.SignalR.HubConnectionContext - Failed connection handshake.
+ERROR 2019-09-09 23:48:45,706 [18   ] .AspNetCore.SignalR.HubConnectionContext - Failed connection handshake.
+ERROR 2019-09-09 23:48:45,731 [21   ] .AspNetCore.SignalR.HubConnectionContext - Failed connection handshake.
+INFO  2019-09-09 23:48:46,054 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14713.7731ms 101 
+INFO  2019-09-09 23:48:46,266 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17829.195ms 101 
+INFO  2019-09-09 23:48:46,597 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 173883.5624ms 101 
+ERROR 2019-09-09 23:48:46,704 [4    ] .AspNetCore.SignalR.HubConnectionContext - Failed connection handshake.
+INFO  2019-09-09 23:48:46,722 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33390.7751ms 101 
+ERROR 2019-09-09 23:48:46,725 [7    ] .AspNetCore.SignalR.HubConnectionContext - Failed connection handshake.
+INFO  2019-09-09 23:48:46,729 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52464.418ms 101 
+ERROR 2019-09-09 23:48:46,733 [21   ] .AspNetCore.SignalR.HubConnectionContext - Failed connection handshake.
+INFO  2019-09-09 23:48:46,737 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59379.3181ms 101 
+INFO  2019-09-09 23:48:46,741 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22100.2151ms 101 
+INFO  2019-09-09 23:48:46,750 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/mtChatHub  
+INFO  2019-09-09 23:48:46,759 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+ERROR 2019-09-09 23:49:07,833 [20   ] .AspNetCore.SignalR.HubConnectionContext - Failed connection handshake.
+INFO  2019-09-09 23:49:07,837 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21090.294ms 101 

@@ -1,0 +1,119 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F10AA149-2626-486E-85BB-9CD5365F3016}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudAlliance.Core", "src\CloudAlliance.Core\CloudAlliance.Core.csproj", "{0FA75A5B-AB83-4FD0-B545-279774C01E87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudAlliance.Application", "src\CloudAlliance.Application\CloudAlliance.Application.csproj", "{3870C648-4AEA-4B85-BA3F-F2F63B96136A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudAlliance.Tests", "test\CloudAlliance.Tests\CloudAlliance.Tests.csproj", "{0D4C5D00-C144-4213-A007-4B8944113AB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudAlliance.Migrator", "src\CloudAlliance.Migrator\CloudAlliance.Migrator.csproj", "{880B3591-E057-46FE-B525-10BD83828B93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudAlliance.Web.Host", "src\CloudAlliance.Web.Host\CloudAlliance.Web.Host.csproj", "{38E184BD-E874-4633-A947-AED4FDB73F40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudAlliance.Web.Core", "src\CloudAlliance.Web.Core\CloudAlliance.Web.Core.csproj", "{22CFE0D2-8DCA-42D7-AD7D-784C3862493F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudAlliance.Web.Mvc", "src\CloudAlliance.Web.Mvc\CloudAlliance.Web.Mvc.csproj", "{A2213374-BB48-48FD-BBD4-81E6A961D866}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudAlliance.EntityFrameworkCore", "src\CloudAlliance.EntityFrameworkCore\CloudAlliance.EntityFrameworkCore.csproj", "{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FA75A5B-AB83-4FD0-B545-279774C01E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA75A5B-AB83-4FD0-B545-279774C01E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA75A5B-AB83-4FD0-B545-279774C01E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA75A5B-AB83-4FD0-B545-279774C01E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3870C648-4AEA-4B85-BA3F-F2F63B96136A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3870C648-4AEA-4B85-BA3F-F2F63B96136A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3870C648-4AEA-4B85-BA3F-F2F63B96136A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3870C648-4AEA-4B85-BA3F-F2F63B96136A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4C5D00-C144-4213-A007-4B8944113AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4C5D00-C144-4213-A007-4B8944113AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4C5D00-C144-4213-A007-4B8944113AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4C5D00-C144-4213-A007-4B8944113AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880B3591-E057-46FE-B525-10BD83828B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880B3591-E057-46FE-B525-10BD83828B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880B3591-E057-46FE-B525-10BD83828B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880B3591-E057-46FE-B525-10BD83828B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E184BD-E874-4633-A947-AED4FDB73F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E184BD-E874-4633-A947-AED4FDB73F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E184BD-E874-4633-A947-AED4FDB73F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E184BD-E874-4633-A947-AED4FDB73F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CFE0D2-8DCA-42D7-AD7D-784C3862493F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CFE0D2-8DCA-42D7-AD7D-784C3862493F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CFE0D2-8DCA-42D7-AD7D-784C3862493F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CFE0D2-8DCA-42D7-AD7D-784C3862493F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2213374-BB48-48FD-BBD4-81E6A961D866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2213374-BB48-48FD-BBD4-81E6A961D866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2213374-BB48-48FD-BBD4-81E6A961D866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2213374-BB48-48FD-BBD4-81E6A961D866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FA75A5B-AB83-4FD0-B545-279774C01E87} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+		{3870C648-4AEA-4B85-BA3F-F2F63B96136A} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+		{0D4C5D00-C144-4213-A007-4B8944113AB1} = {F10AA149-2626-486E-85BB-9CD5365F3016}
+		{880B3591-E057-46FE-B525-10BD83828B93} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+		{38E184BD-E874-4633-A947-AED4FDB73F40} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+		{22CFE0D2-8DCA-42D7-AD7D-784C3862493F} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+		{A2213374-BB48-48FD-BBD4-81E6A961D866} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A19EDDF-06B1-4E02-A0B3-1108B7303A85}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://xiaomoalliancestudio.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\CloudAlliance.Core\\CloudAlliance.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = CloudAlliance.sln
+		SccProjectName1 = src/CloudAlliance.Core
+		SccLocalPath1 = src\\CloudAlliance.Core
+		SccProjectUniqueName2 = src\\CloudAlliance.Application\\CloudAlliance.Application.csproj
+		SccProjectTopLevelParentUniqueName2 = CloudAlliance.sln
+		SccProjectName2 = src/CloudAlliance.Application
+		SccLocalPath2 = src\\CloudAlliance.Application
+		SccProjectUniqueName3 = test\\CloudAlliance.Tests\\CloudAlliance.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = CloudAlliance.sln
+		SccProjectName3 = test/CloudAlliance.Tests
+		SccLocalPath3 = test\\CloudAlliance.Tests
+		SccProjectUniqueName4 = src\\CloudAlliance.Migrator\\CloudAlliance.Migrator.csproj
+		SccProjectTopLevelParentUniqueName4 = CloudAlliance.sln
+		SccProjectName4 = src/CloudAlliance.Migrator
+		SccLocalPath4 = src\\CloudAlliance.Migrator
+		SccProjectUniqueName5 = src\\CloudAlliance.Web.Host\\CloudAlliance.Web.Host.csproj
+		SccProjectTopLevelParentUniqueName5 = CloudAlliance.sln
+		SccProjectName5 = src/CloudAlliance.Web.Host
+		SccLocalPath5 = src\\CloudAlliance.Web.Host
+		SccProjectUniqueName6 = src\\CloudAlliance.Web.Core\\CloudAlliance.Web.Core.csproj
+		SccProjectTopLevelParentUniqueName6 = CloudAlliance.sln
+		SccProjectName6 = src/CloudAlliance.Web.Core
+		SccLocalPath6 = src\\CloudAlliance.Web.Core
+		SccProjectUniqueName7 = src\\CloudAlliance.Web.Mvc\\CloudAlliance.Web.Mvc.csproj
+		SccProjectTopLevelParentUniqueName7 = CloudAlliance.sln
+		SccProjectName7 = src/CloudAlliance.Web.Mvc
+		SccLocalPath7 = src\\CloudAlliance.Web.Mvc
+		SccProjectUniqueName8 = src\\CloudAlliance.EntityFrameworkCore\\CloudAlliance.EntityFrameworkCore.csproj
+		SccProjectTopLevelParentUniqueName8 = CloudAlliance.sln
+		SccProjectName8 = src/CloudAlliance.EntityFrameworkCore
+		SccLocalPath8 = src\\CloudAlliance.EntityFrameworkCore
+	EndGlobalSection
+EndGlobal
